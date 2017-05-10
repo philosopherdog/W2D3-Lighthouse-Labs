@@ -16,8 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   //  [self performSelector:@selector(nextViewController) withObject:self afterDelay:10];
+   
     
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+  if (self = [super initWithCoder:aDecoder]) {
+    
+  }
+  return self;
+}
+
+
+- (void)dealloc {
+  
 }
 
 - (void)setData:(NSString *)data {
@@ -31,7 +43,9 @@
 
 // create unwind segue here
 
-
+- (IBAction)unwind:(UIStoryboardSegue *)sender {
+  
+}
 
 
 @end
