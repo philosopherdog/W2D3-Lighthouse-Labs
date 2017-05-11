@@ -47,7 +47,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="0h1-bz-bvz"/>
+                    <navigationItem key="navigationItem" title="Title" id="0h1-bz-bvz">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="mXP-KQ-X4p">
+                            <connections>
+                                <segue destination="ogJ-ba-jwh" kind="presentation" id="jFf-NL-rxq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9k-XN-2qG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -77,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2lx-CL-TPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2594" y="23"/>
+            <point key="canvasLocation" x="2382" y="6"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="53j-zt-DKP">
