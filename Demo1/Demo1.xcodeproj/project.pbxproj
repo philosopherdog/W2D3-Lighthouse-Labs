@@ -14,6 +14,7 @@
 		AADA3EB81EC2562F006EF7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADA3EB71EC2562F006EF7F9 /* Assets.xcassets */; };
 		AADA3EBB1EC2562F006EF7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADA3EB91EC2562F006EF7F9 /* LaunchScreen.storyboard */; };
 		AADA3EC41EC25B7E006EF7F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADA3EC31EC25B7E006EF7F9 /* SecondViewController.m */; };
+		AADA3F151EC34D5A006EF7F9 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADA3F141EC34D5A006EF7F9 /* Second.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AADA3EBC1EC2562F006EF7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AADA3EC21EC25B7E006EF7F9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		AADA3EC31EC25B7E006EF7F9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AADA3F141EC34D5A006EF7F9 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				AADA3EC31EC25B7E006EF7F9 /* SecondViewController.m */,
 				AADA3EB41EC2562F006EF7F9 /* Main.storyboard */,
 				AADA3EAB1EC2562F006EF7F9 /* Supporting Files */,
+				AADA3F141EC34D5A006EF7F9 /* Second.storyboard */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADA3F151EC34D5A006EF7F9 /* Second.storyboard in Resources */,
 				AADA3EBB1EC2562F006EF7F9 /* LaunchScreen.storyboard in Resources */,
 				AADA3EB81EC2562F006EF7F9 /* Assets.xcassets in Resources */,
 				AADA3EB61EC2562F006EF7F9 /* Main.storyboard in Resources */,
@@ -320,6 +324,7 @@
 				AADA3EC11EC2562F006EF7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
